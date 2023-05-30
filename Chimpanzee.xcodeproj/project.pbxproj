@@ -11,6 +11,8 @@
 		465B25CE2A26352400217174 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465B25CD2A26352400217174 /* ContentView.swift */; };
 		465B25D02A26352600217174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465B25CF2A26352600217174 /* Assets.xcassets */; };
 		465B25D42A26352600217174 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465B25D32A26352600217174 /* Preview Assets.xcassets */; };
+		465B25DB2A2635C700217174 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 465B25DA2A2635C700217174 /* README.md */; };
+		465B25DD2A2636BC00217174 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 465B25DC2A2636BC00217174 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		465B25CF2A26352600217174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		465B25D12A26352600217174 /* Chimpanzee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chimpanzee.entitlements; sourceTree = "<group>"; };
 		465B25D32A26352600217174 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		465B25DA2A2635C700217174 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		465B25DC2A2636BC00217174 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 		465B25BF2A26352400217174 = {
 			isa = PBXGroup;
 			children = (
+				465B25DA2A2635C700217174 /* README.md */,
 				465B25CA2A26352400217174 /* Chimpanzee */,
 				465B25C92A26352400217174 /* Products */,
 			);
@@ -52,6 +57,7 @@
 		465B25CA2A26352400217174 /* Chimpanzee */ = {
 			isa = PBXGroup;
 			children = (
+				465B25DC2A2636BC00217174 /* README.md */,
 				465B25CB2A26352400217174 /* ChimpanzeeApp.swift */,
 				465B25CD2A26352400217174 /* ContentView.swift */,
 				465B25CF2A26352600217174 /* Assets.xcassets */,
@@ -127,7 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465B25DB2A2635C700217174 /* README.md in Resources */,
 				465B25D42A26352600217174 /* Preview Assets.xcassets in Resources */,
+				465B25DD2A2636BC00217174 /* README.md in Resources */,
 				465B25D02A26352600217174 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
